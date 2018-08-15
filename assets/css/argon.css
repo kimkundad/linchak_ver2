@@ -16195,6 +16195,10 @@ textarea[resize='horizontal']
     display: none;
 }
 
+.text-mobile{
+  display: none;
+}
+
 @media (max-width: 991.98px)
 {
     .navbar-nav .nav-link
@@ -16310,11 +16314,16 @@ textarea[resize='horizontal']
 .text-desktop{
   display: none;
 }
+.text-mobile{
+  display: block;
+}
 .ban-item{
   margin-left: 1px;
   margin-right: 1px;
 }
 }
+
+
 
 @keyframes show-navbar-collapse
 {
